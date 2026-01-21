@@ -52,7 +52,7 @@ public class ScorePreloadsRed extends OpMode {
     public void autonomousPathUpdate() {
         switch (pathState) {
             case 0:
-                shooterSubsystem.revToRPM(3000);
+                shooterSubsystem.revToRPM(2000);
                 intakeMotor.setPower(-0.2);
                 follower.followPath(scorePreload);
                 setPathState(1);

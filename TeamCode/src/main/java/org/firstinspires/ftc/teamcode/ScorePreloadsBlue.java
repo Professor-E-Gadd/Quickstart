@@ -33,7 +33,7 @@ public class ScorePreloadsBlue extends OpMode {
 
 
     private final Pose startPose = new Pose(56, 8, Math.toRadians(90));
-    private final Pose scorePose = new Pose(45, 115, Math.toRadians(135));
+    private final Pose scorePose = new Pose(50, 90, Math.toRadians(135));
 
     private final Pose endPose = new Pose(50, 55, Math.toRadians(180));
     private Path scorePreload;

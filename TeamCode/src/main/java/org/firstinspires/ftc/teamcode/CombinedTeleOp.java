@@ -193,8 +193,9 @@ public class CombinedTeleOp extends OpMode {
         else {
             intakeMotor.setPower(0);
         }
-        
-        
+
+
+
     }
     public void stop() {}
     }
